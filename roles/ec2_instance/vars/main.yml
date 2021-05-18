@@ -1,0 +1,19 @@
+---
+# vars file for ec2_instance
+#
+#
+instance_tag:
+        - master
+        - slave1
+        - slave2
+
+python_pkgs:
+        - boto
+        - boto3
+
+sg_name: allow-All
+region_name: ap-south-1
+subnet_name: subnet-e5676e8d
+ami_id: ami-010aff33ed5991201
+keypair: awsclass2020key
+instance_flavour: t2.micro
